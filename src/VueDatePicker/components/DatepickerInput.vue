@@ -17,6 +17,8 @@
                 :onEnter="handleEnter"
                 :onTab="handleTab"
                 :onClear="onClear"
+                :onBlur="handleBlur"
+                :onFocus="handleFocus"
             />
             <input
                 v-if="!$slots['dp-input']"
